@@ -1,10 +1,14 @@
 using System.Text.Json;
 using NumberToTextConverter.Models;
 
-namespace NumberToTextConverter;
+namespace NumberToTextConverter.Services;
 
-public class JsonStringReader
+class JsonStringReader
 {
+    /// <summary>
+    /// Reads the strings.json file and returns the translations.
+    /// </summary>
+    /// <returns>The translations read from the strings.json file.</returns>
     public static Translations? ReadStringsJson()
     {
         string jsonFilePath = "../src/strings.json";
@@ -12,6 +16,11 @@ public class JsonStringReader
         return values;
     }
 
+    /// <summary>
+    /// Reads the JSON content from a file and deserializes it into a dictionary of translations.
+    /// </summary>
+    /// <param name="filePath">The path to the JSON file.</param>
+    /// <returns>A dictionary of translations.</returns>
     private static Translations? GetValuesFromJson(string filePath)
     {
         try

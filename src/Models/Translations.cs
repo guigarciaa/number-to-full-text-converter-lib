@@ -1,11 +1,12 @@
 using System.Text.Json.Serialization;
 
-namespace NumberToTextConverter.Models;
-
-public class Translations
+namespace NumberToTextConverter.Models
 {
-    [JsonPropertyName("pt")]
-    public Dictionary<string, string> Pt { get; set; }
-    [JsonPropertyName("en")]
-    public Dictionary<string, string> En { get; set; }
+    class Translations
+    {
+        [JsonPropertyName("pt")]
+        public Dictionary<string, string>? Pt { get; set; }
+        [JsonPropertyName("en")]
+        public Dictionary<string, string>? En { get; set; }
+    }
 }

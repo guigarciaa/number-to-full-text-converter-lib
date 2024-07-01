@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample", "Sample\sample.csproj", "{E9701181-0919-4B0B-9E79-7732ABA648A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "number-to-full-text-converter-lib", "src\number-to-full-text-converter-lib.csproj", "{E3A4178C-5075-417F-AB2E-CD5843B216FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberToTextConverter", "src\NumberToTextConverter.csproj", "{BF345DCE-B2D4-4CDC-B724-CD8821A96167}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{E9701181-0919-4B0B-9E79-7732ABA648A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9701181-0919-4B0B-9E79-7732ABA648A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9701181-0919-4B0B-9E79-7732ABA648A3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E3A4178C-5075-417F-AB2E-CD5843B216FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E3A4178C-5075-417F-AB2E-CD5843B216FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E3A4178C-5075-417F-AB2E-CD5843B216FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E3A4178C-5075-417F-AB2E-CD5843B216FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF345DCE-B2D4-4CDC-B724-CD8821A96167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF345DCE-B2D4-4CDC-B724-CD8821A96167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF345DCE-B2D4-4CDC-B724-CD8821A96167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF345DCE-B2D4-4CDC-B724-CD8821A96167}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
