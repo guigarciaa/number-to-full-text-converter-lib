@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "number-to-full-text-converter-lib", "number-to-full-text-converter-lib.csproj", "{5679CC60-078C-4F56-9C23-A0AF1A46EA6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample", "Sample\sample.csproj", "{E9701181-0919-4B0B-9E79-7732ABA648A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "number-to-full-text-converter-lib", "src\number-to-full-text-converter-lib.csproj", "{E3A4178C-5075-417F-AB2E-CD5843B216FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5679CC60-078C-4F56-9C23-A0AF1A46EA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5679CC60-078C-4F56-9C23-A0AF1A46EA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5679CC60-078C-4F56-9C23-A0AF1A46EA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5679CC60-078C-4F56-9C23-A0AF1A46EA6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9701181-0919-4B0B-9E79-7732ABA648A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9701181-0919-4B0B-9E79-7732ABA648A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9701181-0919-4B0B-9E79-7732ABA648A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9701181-0919-4B0B-9E79-7732ABA648A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A4178C-5075-417F-AB2E-CD5843B216FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A4178C-5075-417F-AB2E-CD5843B216FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A4178C-5075-417F-AB2E-CD5843B216FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A4178C-5075-417F-AB2E-CD5843B216FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
